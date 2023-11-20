@@ -1,5 +1,5 @@
-('E:\\Meus arquivos\\GitHub\\GitHub 2 '
- 'sem\\performee\\GpuTestes\\build\\GpuDados\\PYZ-00.pyz',
+('E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
+ 'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\PYZ-00.pyz',
  [('GPUtil',
    'C:\\Users\\Bryan\\PycharmProjects\\GpuTestes\\venv\\Lib\\site-packages\\GPUtil\\__init__.py',
    'PYMODULE'),

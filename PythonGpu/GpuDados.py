@@ -10,11 +10,16 @@ conexao = mysql.connector.connect(
     database='performee',
 )
 
-tentativas = 4
+tentativas = 6
 
 cursor = conexao.cursor()
+
+print("""
++------------------------------------+
+|   Bem vindo ao \033[1;34mPerformee\033[m GPU!.     |""")
 for tentativa in range(tentativas, 0, -1):
-    ipServidor = input('Digite o IP do Servidor: ')
+    ipServidor = input("""+------------------------------------+
+Digite o IP do Servidor: """)
 
     buscaIp = f'select count(*) from servidor where ipServidor = "{ipServidor}"'
     cursor.execute(buscaIp)
@@ -22,12 +27,15 @@ for tentativa in range(tentativas, 0, -1):
     valorResult = resultado[0]
 
     if valorResult == 0:
-        print('Servidor Não encontrado!')
+        print('\033[1;31mServidor não encontrado!\033[m')
         tentativas -= 1
-        print(f'Você tem {tentativas} tentativas!'.format(tentativas))
+        if tentativas == 0:
+            print('Acabou suas tentativas! Volte mais tarde')
+        else:
+            print(f'Você tem \033[1;31m{tentativas}\033[m tentativas!'.format(tentativas))
 
     else:
-        print("Servidor Encontrado!")
+        print("\033[1;32mServidor Encontrado!\033[m")
         while True:
             buscarEmp = f'select fkEmpresa from servidor where ipServidor = "{ipServidor}"'
             cursor.execute(buscarEmp)
@@ -39,10 +47,11 @@ for tentativa in range(tentativas, 0, -1):
             dataCenter = cursor.fetchone()  # ler o banco de dados
             fkDataCenter = dataCenter[0]
 
-            print('O que deseja?')
-            print('1 Cadastrar GPU')
-            print('2 Inserir Leitura')
-            print('3 Sair')
+            print("""+------------------------------------+
+| 1) Cadastrar GPU                   |
+| 2) Inserir Dados GPU               |
+| 3) Sair                            |
++------------------------------------+""")
             opcao = int(input('Escolha a opção: '))
 
 
@@ -66,8 +75,9 @@ for tentativa in range(tentativas, 0, -1):
                                  f'fkServidor) values ("GPU", "{modelo}","{capacidadeTotal}", 3, {fkEmpresa}, {fkDataCenter}, '
                                  f'"{ipServidor}")')
                     cursor.execute(insertGpu)
+                    print("\033[1;32mGPU Cadastrada Com Sucesso!\033[m")
                 else:
-                    print("GPU desse servidor já cadastrado")
+                    print("\033[1;33mGPU já cadastrada nesse servidor!\033[m")
 
 
             elif opcao == 2:
@@ -92,8 +102,6 @@ for tentativa in range(tentativas, 0, -1):
                 break
             else:
                 print('Número Inválido!')
-
-
 
                 cursor.close()
                 conexao.close()
