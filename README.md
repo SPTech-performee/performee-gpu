@@ -25,9 +25,7 @@ Visualize o executável Jar Performee no seguite link:
 
 <div align="left">
   <img align="center" alt="luigi-mysql" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-</div>
-<div align="left">
-  <img align="center" alt="Python" height="50" width="60" src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/042e36c55d4d757621dedc4f03108213fbb57ec4/programming%20languages/python.svg">
+   <img align="center" alt="Python" height="50" width="60" src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/042e36c55d4d757621dedc4f03108213fbb57ec4/programming%20languages/python.svg">
 </div>
 
 #
