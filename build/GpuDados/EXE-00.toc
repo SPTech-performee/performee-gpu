@@ -1,5 +1,5 @@
-('E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
- 'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\GpuDados.exe',
+('E:\\Meus arquivos\\GitHub\\GitHub 2 '
+ 'sem\\performee-gpu\\build\\GpuDados\\GpuDados.exe',
  True,
  False,
  True,
@@ -30,32 +30,32 @@
  None,
  None,
  None,
- 'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
- 'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\GpuDados.pkg',
+ 'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+ 'sem\\performee-gpu\\build\\GpuDados\\GpuDados.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\PYZ-00.pyz',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+   'sem\\performee-gpu\\build\\GpuDados\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\localpycs\\struct.pyc',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+   'sem\\performee-gpu\\build\\GpuDados\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\localpycs\\pyimod01_archive.pyc',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+   'sem\\performee-gpu\\build\\GpuDados\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\localpycs\\pyimod02_importers.pyc',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+   'sem\\performee-gpu\\build\\GpuDados\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\localpycs\\pyimod03_ctypes.pyc',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+   'sem\\performee-gpu\\build\\GpuDados\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\build\\GpuDados\\localpycs\\pyimod04_pywin32.pyc',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 '
+   'sem\\performee-gpu\\build\\GpuDados\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\Bryan\\PycharmProjects\\GpuTestes\\venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -76,13 +76,12 @@
    'C:\\Users\\Bryan\\PycharmProjects\\GpuTestes\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
    'PYSOURCE'),
   ('GpuDados',
-   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\Outros '
-   'performee\\performee-gpu\\PythonGpu\\GpuDados.py',
+   'E:\\Meus arquivos\\GitHub\\GitHub 2 sem\\performee-gpu\\GpuDados.py',
    'PYSOURCE')],
  [],
  False,
  False,
- 1700439401,
+ 1700801170,
  [('run.exe',
    'C:\\Users\\Bryan\\PycharmProjects\\GpuTestes\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
