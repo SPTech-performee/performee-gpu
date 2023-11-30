@@ -6,10 +6,9 @@ import logging
 import socket
 import requests
 
-import MySql
-import SqlServer
+from Conexao import MySql, SqlServer
 
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = "https://hooks.slack.com/services/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"
 
 logging.basicConfig(filename='log_performee_gpu.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
@@ -432,7 +431,7 @@ ORDER BY l.idLeitura DESC
                         alerta = {"text": descricao2}
                         response = requests.post(webhook_url, json=alerta)
 
-                    time.sleep(10)
+                    time.sleep(1)
 
             elif opcao == 3:
                 print("Saindo...")

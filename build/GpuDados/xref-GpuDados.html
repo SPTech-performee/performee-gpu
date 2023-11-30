@@ -18,9 +18,10 @@
   <a target="code" href="///E:/Meus%20arquivos/GitHub/GitHub%202%20sem/performee-gpu/GpuDados.py" type="text/plain"><tt>GpuDados.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
-    <a href="#GPUtil">GPUtil</a>
- &#8226;   <a href="#MySql">MySql</a>
- &#8226;   <a href="#SqlServer">SqlServer</a>
+    <a href="#Conexao">Conexao</a>
+ &#8226;   <a href="#Conexao.MySql">Conexao.MySql</a>
+ &#8226;   <a href="#Conexao.SqlServer">Conexao.SqlServer</a>
+ &#8226;   <a href="#GPUtil">GPUtil</a>
  &#8226;   <a href="#_collections_abc">_collections_abc</a>
  &#8226;   <a href="#_weakrefset">_weakrefset</a>
  &#8226;   <a href="#abc">abc</a>
@@ -551,6 +552,61 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="Conexao"></a>
+  <a target="code" href="-" type="text/plain"><tt>Conexao</tt></a>
+<span class="moduletype">NamespacePackage</span>  <div class="import">
+imports:
+    <a href="#Conexao.MySql">Conexao.MySql</a>
+ &#8226;   <a href="#Conexao.SqlServer">Conexao.SqlServer</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#Conexao.MySql">Conexao.MySql</a>
+ &#8226;   <a href="#Conexao.SqlServer">Conexao.SqlServer</a>
+ &#8226;   <a href="#GpuDados.py">GpuDados.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="Conexao.MySql"></a>
+  <a target="code" href="///E:/Meus%20arquivos/GitHub/GitHub%202%20sem/performee-gpu/Conexao/MySql.py" type="text/plain"><tt>Conexao.MySql</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#Conexao">Conexao</a>
+ &#8226;   <a href="#mysql.connector">mysql.connector</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#Conexao">Conexao</a>
+ &#8226;   <a href="#GpuDados.py">GpuDados.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="Conexao.SqlServer"></a>
+  <a target="code" href="///E:/Meus%20arquivos/GitHub/GitHub%202%20sem/performee-gpu/Conexao/SqlServer.py" type="text/plain"><tt>Conexao.SqlServer</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#Conexao">Conexao</a>
+ &#8226;   <a href="#pyodbc">pyodbc</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#Conexao">Conexao</a>
+ &#8226;   <a href="#GpuDados.py">GpuDados.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="GPUtil"></a>
   <a target="code" href="///C:/Users/Bryan/PycharmProjects/GpuTestes/venv/Lib/site-packages/GPUtil/__init__.py" type="text/plain"><tt>GPUtil</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
@@ -593,43 +649,11 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="MySql"></a>
-  <a target="code" href="///E:/Meus%20arquivos/GitHub/GitHub%202%20sem/performee-gpu/MySql.py" type="text/plain"><tt>MySql</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#mysql.connector">mysql.connector</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#GpuDados.py">GpuDados.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="OpenSSL"></a>
   <a target="code" href="" type="text/plain"><tt>OpenSSL</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#urllib3.contrib.pyopenssl">urllib3.contrib.pyopenssl</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="SqlServer"></a>
-  <a target="code" href="///E:/Meus%20arquivos/GitHub/GitHub%202%20sem/performee-gpu/SqlServer.py" type="text/plain"><tt>SqlServer</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#pyodbc">pyodbc</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#GpuDados.py">GpuDados.py</a>
 
   </div>
 
@@ -11297,7 +11321,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#MySql">MySql</a>
+    <a href="#Conexao.MySql">Conexao.MySql</a>
  &#8226;   <a href="#mysql">mysql</a>
  &#8226;   <a href="#mysql.connector">mysql.connector</a>
  &#8226;   <a href="#mysql.connector.abstracts">mysql.connector.abstracts</a>
@@ -15472,7 +15496,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#SqlServer">SqlServer</a>
+    <a href="#Conexao.SqlServer">Conexao.SqlServer</a>
 
   </div>
 
