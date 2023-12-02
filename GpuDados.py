@@ -28,7 +28,7 @@ cursorServer = SqlServer.cursor
 
 print("""
 +------------------------------------+
-|   Bem vindo ao \033[1;34mPerformee\033[m GPU!      |""")
+|   Bem-vindo ao \033[1;34mPerformee\033[m GPU!      |""")
 for tentativa in range(tentativas, 0, -1):
     ipServidor = input("""+------------------------------------+
 Digite o IP do Servidor: """)
@@ -186,9 +186,9 @@ Digite o IP do Servidor: """)
                 MySql.conexao.commit()
 
             print("""+------------------------------------+
-| 1) Cadastrar GPU                   |
-| 2) Inserir Dados GPU               |
-| 3) Sair                            |
+| \033[1;35m1)\033[m Cadastrar GPU                   |
+| \033[1;35m2)\033[m Inserir Dados GPU               |
+| \033[1;35m3)\033[m Sair                            |
 +------------------------------------+""")
             opcao = int(input('Escolha a opção: '))
 
@@ -431,7 +431,7 @@ ORDER BY l.idLeitura DESC
                         alerta = {"text": descricao2}
                         response = requests.post(webhook_url, json=alerta)
 
-                    time.sleep(1)
+                    time.sleep(10)
 
             elif opcao == 3:
                 print("Saindo...")

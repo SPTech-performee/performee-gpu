@@ -81,7 +81,7 @@
  [],
  False,
  False,
- 1701315563,
+ 1701526476,
  [('run.exe',
    'C:\\Users\\Bryan\\PycharmProjects\\GpuTestes\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
